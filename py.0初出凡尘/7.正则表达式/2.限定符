@@ -1,0 +1,7 @@
+#限定符
+    ?     匹配前面的字符0次或1次             colou?r              可以匹配color或colour
+    +     匹配前面的字符1次或多次            colou+r              可以匹配colour或colouu...r
+    *     匹配前面的字符0次或多次            colou*r              可以匹配color或colouu...r
+    {n}   匹配前面的字符n次                 colou{2}r            可以匹配colouur
+    {n,}  匹配前面的字符最少n次              colou{2,}r           可以匹配colouur -- cloouuu...r
+    {n,m} 匹配前面的字符最少次,最多m次        colou{2,4}r          可以匹配colouur,colouuur,colouuuur

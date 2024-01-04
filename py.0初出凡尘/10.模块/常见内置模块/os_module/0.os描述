@@ -1,0 +1,11 @@
+os 提供了访问操作系统服务功能的标准库
+
+system()    打开系统自带的三西
+startfile()    打开可执行文件
+getcwd()    返回当前工作目录
+listdir(path)    返回指定路径下的文件和目录信息
+mkdir(path[,mode])    创建目录
+makedirs(path1\\path2\\...[,mode])   创建多级目录
+rmdir(path)    删除目录
+removedirs(path1\\path2\\...)    删除多级目录
+chdir(path)    将path设置为当前工作目录

@@ -1,0 +1,9 @@
+name = "123456789"
+ #切片1 【开始：结尾】 取左不取右
+print(name[0:3])   # 123
+print(name[:3])    # 123
+print(name[:])     # 123456789
+print(name[-1:-3])   # 无输出
+print(name[-3:-1])   # 78
+print(name[-3:])     # 789
+print(name[:-1])     # 12345678

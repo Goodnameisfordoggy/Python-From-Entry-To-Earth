@@ -1,0 +1,5 @@
+with语句(上下文管理器)
+    with语句可以自动管理上下文资源,不论什么原因(包括但不限于语法出错)跳出with都能确保文件正确的关闭,以此来达到释放资源的目的
+
+with open('text4.1', 'r') as file:
+    print(file.read())
